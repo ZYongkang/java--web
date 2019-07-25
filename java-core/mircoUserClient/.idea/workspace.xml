@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbc8376d-a415-4df1-b993-9b4fb3d93582" name="Default Changelist" comment="" />
+    <list default="true" id="fbc8376d-a415-4df1-b993-9b4fb3d93582" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../microUserClient2/src/main/java/com/zyk/cloud/eurekaclient/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../microUserClient2/src/main/java/com/zyk/cloud/eurekaclient/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_BUILD_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +37,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,9 +108,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,16 +171,17 @@
       <workItem from="1561728011879" duration="417000" />
       <workItem from="1561784312476" duration="179000" />
       <workItem from="1561784662324" duration="102000" />
+      <workItem from="1564024537111" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9533000" />
+    <option name="totallyTimeSpent" value="9583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="989" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17277168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -214,140 +228,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/EurekaClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/model/MicroBeanObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/model/UserDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2464#2465#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
-            <element signature="e#2602#2603#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2768#2769#0" expanded="true" />
-            <element signature="e#2800#2801#0" expanded="true" />
-            <element signature="e#2848#2849#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-            <element signature="e#2926#2927#0" expanded="true" />
-            <element signature="e#2960#2961#0" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#3160#3161#0" expanded="true" />
-            <element signature="e#3194#3195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/EurekaClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/model/MicroBeanObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zyk/cloud/eurekaclient/model/UserDO.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="masterDetails">
     <states>

@@ -22,7 +22,7 @@ public class UserController {
     @ResponseBody
     public MicroBeanObject getUserById(@PathVariable Integer id) {
         MicroBeanObject<UserDO> microBeanObject = new MicroBeanObject<>();
-
+        Float.compare(0.1f, 0.2f);
         if (id == null || id <= 0) {
             microBeanObject.setStatus(2);
             microBeanObject.setMsg("param id can't is null or <= 0");
