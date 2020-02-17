@@ -1,0 +1,19 @@
+通过代理进行网络连接的webclient的设置方法：
+ TcpClient tcpClient = TcpClient.create()
+                .proxy(proxyOptions -> proxyOptions.type(ProxyProvider.Proxy.HTTP).address(new InetSocketAddress("39.106.207.29",808)))
+                .option(ChannelOption.CONNECT_TIMEOUT_MILLIS, 1000)
+                .option(ChannelOption.TCP_NODELAY,true)
+                .doOnConnected(connection -> {
+                    System.out.println("连接成功");
+                    connection.addHandlerLast(new ReadTimeoutHandler(1000, TimeUnit.MILLISECONDS));
+                    connection.addHandlerLast(new WriteTimeoutHandler(1000,TimeUnit.MILLISECONDS));
+                }).doOnDisconnected(connection -> {
+                    System.out.println("断连");
+                });
+
+        ClientHttpConnector clientHttpConnector = new ReactorClientHttpConnector(HttpClient.from(tcpClient));
+
+        webClient = WebClient.builder()
+                .baseUrl("http://www.baidu.com")
+                .clientConnector(clientHttpConnector)
+                .build();
